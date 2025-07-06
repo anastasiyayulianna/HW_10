@@ -1,0 +1,58 @@
+    1  git clone https://github.com/anastasiyayulianna/Test-GoIT.git
+    2  cd Test-GoIT
+    3  touch text_ignore.txt
+    4  code .gitignore
+    5  text_ignore.txt
+    6  code.gitignore
+    7  code.gitignore text_ignore.txt
+    8  clear
+    9  git clone htt://github.com/anastasiyayulianna/Test-GoIT.git
+   10  clear
+   11  git clone https://github.com/anastasiyayulianna/Test-GoIT.git
+   12  cd Test-GoIT
+   13  touch text_ignore.txt
+   14  nano .gitignore
+   15  git status
+   16  git add .
+   17  git commit -m
+   18  git commit - m "Добавив text_ignore.txt до .gitignore"
+   19  touch main_test.txt
+   20  git add .
+   21  git commit -m "Створив main_test.txt"
+   22  git checkout -b develop
+   23  touch develop_test.txt
+   24  git add .
+   25  git commit -m "�Створив develop_test.txt
+just a small change
+git status
+git commit -m "Створив develop_test.txt"
+just a small change
+
+
+
+
+git commit -m "�Створив develop_test.txt
+   26  just a small change
+   27  git status
+   28  git commit -m "Створив develop_test.txt"
+   29  just a small change
+   30  git add .develop_test.txt
+   31  git chekout -b develop
+   32  git checkout -b develop
+   33  touch develop_test.txt
+   34  git add .
+   35  git commit -m "створив develop_test.txt"
+   36  echo "just a small change" >> develop_test.txt
+   37  git status
+   38  git add .
+   39  git commit -m "Додав зміст до develop_test.txt"
+   40  git checkout main
+   41  git merge develop
+   42  git log --oneline -- graph --decorate
+   43  history > command_list.csv
+   44  git add .
+   45  git commit -m "Додав command_list.csv"
+   46  git push
+   47  git ls-files | greo command_list.csv
+   48  cd Test-GoIT
+   49  history > command_list.csv
