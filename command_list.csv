@@ -56,3 +56,14 @@ git commit -m "�Створив develop_test.txt
    47  git ls-files | greo command_list.csv
    48  cd Test-GoIT
    49  history > command_list.csv
+   50  git add command_list.csv
+   51  git commit -m "Додав файлу command_list.csv"
+   52  git push
+   53  git config user.name "anastasiyayulianna"
+   54  git config user.email "anastasiyayulianna@yahoo.com"
+   55  git config --global user.name "anastasiyayulianna"
+   56  git config --global user.email "anastasiyayulianna@yahoo.com"
+   57  git commit -m "Додав файлу command_list.csv"
+   58  cd path/to/Test-GoIT
+   59  git ls-files | grep command_list.csv
+   60  history > command_list.csv
